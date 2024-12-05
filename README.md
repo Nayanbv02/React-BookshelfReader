@@ -1,18 +1,34 @@
 <h1 align="center">Bookshelf</h1>
-<p align="center"><img src="https://github.com/Nayanbv02/LND-BookShelf-Nayan/blob/main/img/Bookshelf.png?raw=true"/></p> 
+<p align="center"><img alt="Bookshelf Logo" src="https://github.com/Nayanbv02/LND-BookShelf-Nayan/blob/main/img/Bookshelf.png?raw=true"/></p> 
 
 ## Table of Contents:
 ---
 - [Description](#description)
+- [Installation](#installation)
 - [Author](#author)
 
 ## Description
 ---
-This page is developed in React, designed for reading lovers or more casual users. 
+Bookshelf is a React application designed for book enthusiasts and casual readers alike. 
 
-In it we can access with our user and save our favorite or pending books in the library to have them all in one place locally and quickly.
+Users can log in to save their favorite or pending books in the library, keeping them all in one place, locally and quickly.
 
-In short, one library to rule them all.
+In short: *one library to rule them all*.
+
+## Installation
+---
+To get started, ensure you have **Node.js** installed on your system. Then follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Nayanbv02   LND-BookShelf-Nayan.git
+    cd LND-BookShelf-Nayan
+
+2. Install the dependencies:
+    npm install
+
+3. Run the application locally:
+    npm run dev
 
 ## Author
 ---
