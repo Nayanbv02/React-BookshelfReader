@@ -21,13 +21,15 @@ To get started, ensure you have **Node.js** installed on your system. Then follo
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Nayanbv02   LND-BookShelf-Nayan.git
-    cd LND-BookShelf-Nayan
+    git clone https://github.com/Nayanbv02/React-BookshelfReader
+    cd React-BookshelfReader
 
 2. Install the dependencies:
+    ```bash
     npm install
 
 3. Run the application locally:
+    ```bash
     npm run dev
 
 ## Author
