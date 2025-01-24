@@ -1,18 +1,36 @@
 <h1 align="center">Bookshelf</h1>
-<p align="center"><img src="https://cdn.discordapp.com/attachments/765658882453536768/1235661508529094656/Bookshelf.png?ex=666a93b5&is=66694235&hm=73d79fd42b6a915d76b96f55ea91a58c0fe7d176ed65b0b2250a6685f9e718ea&"/></p> 
+<p align="center"><img alt="Bookshelf Logo" src="https://github.com/Nayanbv02/LND-BookShelf-Nayan/blob/main/img/Bookshelf.png?raw=true"/></p> 
 
 ## Table of Contents:
 ---
 - [Description](#description)
+- [Installation](#installation)
 - [Author](#author)
 
 ## Description
 ---
-This page is developed in React, designed for reading lovers or more casual users. 
+Bookshelf is a React application designed for book enthusiasts and casual readers alike. 
 
-In it we can access with our user and save our favorite or pending books in the library to have them all in one place locally and quickly.
+Users can log in to save their favorite or pending books in the library, keeping them all in one place, locally and quickly.
 
-In short, one library to rule them all.
+In short: *one library to rule them all*.
+
+## Installation
+---
+To get started, ensure you have **Node.js** installed on your system. Then follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Nayanbv02/React-BookshelfReader
+    cd React-BookshelfReader
+
+2. Install the dependencies:
+    ```bash
+    npm install
+
+3. Run the application locally:
+    ```bash
+    npm run dev
 
 ## Author
 ---
