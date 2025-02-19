@@ -46,13 +46,13 @@ To get started, ensure you have **Node.js** installed on your system. Then follo
 
 ## E/R_Diagram
 
-<p align="center"><img alt="E/R Diagram" src="https://cdn.discordapp.com/attachments/765658882453536768/1338588847780659303/image.png?ex=67aba183&is=67aa5003&hm=67ea1eb918fbd2aaf87d74d3a88497bf15ff6486e62357570f14ece2292b931b&"/></p> 
+<p align="center"><img alt="E/R Diagram" src="https://media.discordapp.net/attachments/765658882453536768/1338588847780659303/image.png?ex=67b6d643&is=67b584c3&hm=947f8b8ad2319a904376b07a43702688d9d7c81d1010f2f7a3706e3334f698e2&=&format=webp&quality=lossless"/></p> 
 
 ---
 
 ## Use_Case_Diagram
 
-<p align="center"><img alt="UseCase" src="https://cdn.discordapp.com/attachments/765658882453536768/1338589122184613989/image.png?ex=67aba1c4&is=67aa5044&hm=242fd5a4e7dfde30c6e4f2cc19868d5c77693f156cd74edb0867ca4107fb9ab2&"/></p> 
+<p align="center"><img alt="UseCase" src="https://media.discordapp.net/attachments/765658882453536768/1338589122184613989/image.png?ex=67b6d684&is=67b58504&hm=4116108d367be44b33d4f84a908f12ae7324efe868b8e7749f8a2aa4fc7b5c36&=&format=webp&quality=lossless"/></p> 
 
 ---
 
