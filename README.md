@@ -71,7 +71,9 @@ Authentication: JWT token generation for secure CRUD operations.
 ## Database_Structure
 
 Users: id (PK), name, email, password
+
 Books: book_id (PK), pdf_name, pdf_path, favorite, last_page, user_name (FK)
+
 Bookmarks: bookmark_id (PK), page_number, color, date, book_id (FK)
 
 ---
@@ -79,7 +81,9 @@ Bookmarks: bookmark_id (PK), page_number, color, date, book_id (FK)
 ## System_Architecture
 
 Frontend: React (user interface).
+
 Backend: Spring Boot (RESTful API).
+
 Database: MySQL (data persistence management).
 
 ---
@@ -89,22 +93,31 @@ Database: MySQL (data persistence management).
 1. Users
 
    GET /api/users - Retrieve all users.
+   
    POST /api/users - Create a user.
+   
    PUT /api/users/{id} - Update a user.
+   
    DELETE /api/users/{id} - Delete a user.
 
-2. Books
+3. Books
 
    GET /api/books - List all books.
+   
    POST /api/books - Add a book.
+   
    PUT /api/books/{book_id} - Edit a book.
+   
    DELETE /api/books/{book_id} - Delete a book.
 
-3. Bookmarks
+5. Bookmarks
 
    GET /api/bookmarks - View all bookmarks.
+   
    POST /api/bookmarks/book/{book_id} - Create a bookmark.
+   
    PUT /api/bookmarks/{bookmark_id} - Edit a bookmark.
+   
    DELETE /api/bookmarks/{bookmark_id} - Delete a bookmark.
 
 ---
@@ -112,6 +125,7 @@ Database: MySQL (data persistence management).
 ## Authentication
 
 Login: POST /login (Generates JWT token upon credential validation).
+
 Register: POST /register (Creates a new user in the database).
 
 ---
@@ -119,8 +133,11 @@ Register: POST /register (Creates a new user in the database).
 ## User_Manual
 
 Registration: Create an account with your name, email, and password.
+
 Book Management: Add PDF books, mark them as favorites, or delete the ones you no longer need.
+
 Bookmarks: Add bookmarks on specific pages with color and date.
+
 Security: Sessions are protected using JWT tokens.
 
 ---
