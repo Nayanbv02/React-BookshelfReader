@@ -70,11 +70,11 @@ Authentication: JWT token generation for secure CRUD operations.
 
 ## Database_Structure
 
-Users: id (PK), name, email, password
+Users: id (PK), nombre, correo, clave
 
-Books: book_id (PK), pdf_name, pdf_path, favorite, last_page, user_name (FK)
+Books: id_libro (PK), nombre_pdf, ruta_pdf, favorito, ultima_pagina, usuario_id (FK)
 
-Bookmarks: bookmark_id (PK), page_number, color, date, book_id (FK)
+Bookmarks: id_marcador (PK), numero_pagina, color, fecha, id_libro (FK)
 
 ---
 
@@ -92,33 +92,33 @@ Database: MySQL (data persistence management).
 
 1. Users
 
-   GET /api/users - Retrieve all users.
+   GET /api/usuarios - Retrieve all users.
    
-   POST /api/users - Create a user.
+   POST /api/auth/register - Create a user.
    
-   PUT /api/users/{id} - Update a user.
+   PUT /api/usuarios/{id} - Update a user.
    
-   DELETE /api/users/{id} - Delete a user.
+   DELETE /api/usuarios/{id} - Delete a user.
 
 3. Books
 
-   GET /api/books - List all books.
+   GET /api/libros - List all books.
    
-   POST /api/books - Add a book.
+   POST /api/libros/usuario/{id} - Add a book.
    
-   PUT /api/books/{book_id} - Edit a book.
+   PUT /api/libros/{id_libro} - Edit a book.
    
-   DELETE /api/books/{book_id} - Delete a book.
+   DELETE /api/libros/{id_libro} - Delete a book.
 
 5. Bookmarks
 
-   GET /api/bookmarks - View all bookmarks.
+   GET /api/marcadores - View all bookmarks.
    
-   POST /api/bookmarks/book/{book_id} - Create a bookmark.
+   POST /api/marcadores/libro/{id_libro} - Create a bookmark.
    
-   PUT /api/bookmarks/{bookmark_id} - Edit a bookmark.
+   PUT /api/marcadores/{id_marcador} - Edit a bookmark.
    
-   DELETE /api/bookmarks/{bookmark_id} - Delete a bookmark.
+   DELETE /api/marcadores/{id_marcador} - Delete a bookmark.
 
 ---
 
