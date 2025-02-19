@@ -88,24 +88,24 @@ Database: MySQL (data persistence management).
 
 1. Users
 
-   GET /api/users - Retrieve all users
-   POST /api/users - Create a user
-   PUT /api/users/{id} - Update a user
-   DELETE /api/users/{id} - Delete a user
+   GET /api/users - Retrieve all users.
+   POST /api/users - Create a user.
+   PUT /api/users/{id} - Update a user.
+   DELETE /api/users/{id} - Delete a user.
 
 2. Books
 
-   GET /api/books - List all books
-   POST /api/books - Add a book
-   PUT /api/books/{book_id} - Edit a book
-   DELETE /api/books/{book_id} - Delete a book
+   GET /api/books - List all books.
+   POST /api/books - Add a book.
+   PUT /api/books/{book_id} - Edit a book.
+   DELETE /api/books/{book_id} - Delete a book.
 
 3. Bookmarks
 
-   GET /api/bookmarks - View all bookmarks
-   POST /api/bookmarks/book/{book_id} - Create a bookmark
-   PUT /api/bookmarks/{bookmark_id} - Edit a bookmark
-   DELETE /api/bookmarks/{bookmark_id} - Delete a bookmark
+   GET /api/bookmarks - View all bookmarks.
+   POST /api/bookmarks/book/{book_id} - Create a bookmark.
+   PUT /api/bookmarks/{bookmark_id} - Edit a bookmark.
+   DELETE /api/bookmarks/{bookmark_id} - Delete a bookmark.
 
 ---
 
